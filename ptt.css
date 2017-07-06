@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div{
+    background-color: #68CDD5;
+}
+/*头部*/
+.tb{
+    width: 100%;
+    padding-top: 15px;
+}
+/*返回按钮*/
+.tb_fh{
+    margin-left: 24px;
+    width: 37px;
+    padding-top: 37px;
+    background-image: url(fh.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+/*商标*/
+.sb{
+    width: 100%;
+    padding-top: 45%;
+    background-image: url(sb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*介绍*/
+.js{
+    width: 70%;
+    padding: 15%;
+    line-height: 150%;
+    font-family: "宋体";
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+/*尾部*/
+.wb{
+    width: 100%;
+    padding-top: 80%;
+    background-image: url("bq1.png"),url("bq2.png");
+    background-repeat: no-repeat;
+    background-position: 20% 20%,80% 20%;
+}
+.clear{
+    content: "";
+    display: block;
+}

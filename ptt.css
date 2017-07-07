@@ -43,12 +43,20 @@ div{
 /*尾部*/
 .wb{
     width: 100%;
-    padding-top: 80%;
-    background-image: url("bq1.png"),url("bq2.png");
-    background-repeat: no-repeat;
-    background-position: 20% 20%,80% 20%;
+    padding-bottom: 30%;
+}
+.bq1{
+    width: 15%;
+    position: absolute;
+    left: 15%;
+}
+.bq2{
+    width:15%;
+    position: absolute;
+    right: 15%;
 }
 .clear{
     content: "";
+    clear: both;
     display: block;
 }
